@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Browse Movies - Movie Recommendation System</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="navbar">
+    <a href="index.html" class="logo">🎬 MovieRec</a>
+    <div class="nav-links">
+        <a href="index.html">Home</a>
+        <a href="browse.html">Browse Movies</a>
+        <a href="genres.html">Genres</a>
+        <a href="favorites.html">My Favorites</a>
+        <a href="profile.html">Profile</a>
+    </div>
+</div>
+
+<div class="container">
+    <h2>Browse All Movies</h2>
+    
+    <div class="search-section">
+        <input type="text" class="search-box" placeholder="Search movies by title...">
+        <select class="filter-dropdown">
+            <option>All Genres</option>
+            <option>Action</option>
+            <option>Comedy</option>
+            <option>Drama</option>
+            <option>Sci-Fi</option>
+            <option>Horror</option>
+            <option>Romance</option>
+        </select>
+        <select class="filter-dropdown">
+            <option>Sort by: Popularity</option>
+            <option>Sort by: Rating</option>
+            <option>Sort by: Year</option>
+            <option>Sort by: A-Z</option>
+        </select>
+    </div>
+
+    <div class="movie-table-section">
+        <table class="movie-table">
+            <thead>
+                <tr>
+                    <th>Poster</th>
+                    <th>Title</th>
+                    <th>Year</th>
+                    <th>Genre</th>
+                    <th>Rating</th>
+                    <th>Action</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Inception</td>
+                    <td>2010</td>
+                    <td>Sci-Fi, Thriller</td>
+                    <td>★★★★★</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>The Dark Knight</td>
+                    <td>2008</td>
+                    <td>Action, Crime</td>
+                    <td>★★★★★</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Interstellar</td>
+                    <td>2014</td>
+                    <td>Sci-Fi, Drama</td>
+                    <td>★★★★☆</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Pulp Fiction</td>
+                    <td>1994</td>
+                    <td>Crime, Drama</td>
+                    <td>★★★★★</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>The Matrix</td>
+                    <td>1999</td>
+                    <td>Sci-Fi, Action</td>
+                    <td>★★★★★</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Goodfellas</td>
+                    <td>1990</td>
+                    <td>Crime, Drama</td>
+                    <td>★★★★★</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Forrest Gump</td>
+                    <td>1994</td>
+                    <td>Drama, Romance</td>
+                    <td>★★★★★</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Fight Club</td>
+                    <td>1999</td>
+                    <td>Drama</td>
+                    <td>★★★★★</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Avatar</td>
+                    <td>2009</td>
+                    <td>Sci-Fi, Adventure</td>
+                    <td>★★★★☆</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+                <tr>
+                    <td><img src="images/poster.png" class="table-poster"></td>
+                    <td>Joker</td>
+                    <td>2019</td>
+                    <td>Drama, Crime</td>
+                    <td>★★★★☆</td>
+                    <td><a href="#" class="btn-small">Details</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+
+    <div class="pagination">
+        <a href="#">&laquo; Previous</a>
+        <a href="#" class="active">1</a>
+        <a href="#">2</a>
+        <a href="#">3</a>
+        <a href="#">4</a>
+        <a href="#">5</a>
+        <a href="#">Next &raquo;</a>
+    </div>
+</div>
+
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-section">
+            <h4>MovieRec</h4>
+            <p>Your personal movie recommendation system</p>
+        </div>
+    </div>
+    <div class="footer-bottom">
+        <p>&copy; 2024 Movie Recommendation System. All rights reserved.</p>
+    </div>
+</div>
+
+</body>
+</html>

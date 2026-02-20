@@ -147,18 +147,7 @@ movie-recommendation-system/
 - Movie trailers integration
 - User rating system
 
-## 📞 Support
 
-For any queries or support:
-- Email: support@movierec.com
-- Phone: (555) 123-4567
-- Address: 123 Movie Street, Hollywood, CA 90210
-
-## 📄 License
-
-This project is created for educational purposes as part of the Artificial Intelligence and Data Science curriculum.
-
----
 
 **© 2024 Movie Recommendation System**  
-Created with ❤️ by **Dipesh Padole** (AIDS - A-48)
+Created with  by **Dipesh Padole** (AIDS - A-48)
